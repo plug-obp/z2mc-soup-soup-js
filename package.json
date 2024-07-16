@@ -1,0 +1,20 @@
+{
+  "name": "z2mc-soup-soup-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "z2mc_soup_soup.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [],
+  "author": "Ciprian TEODOROV",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "soup": "github:plug-obp/soup-js#main",
+    "z2mc": "github:plug-obp/z2mc-js#async_homogeneous"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
